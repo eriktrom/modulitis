@@ -1,6 +1,7 @@
 # used to include in models
 require 'imageable'
 require 'videoable'
+require 'audioable'
 require 'listable'
 # used to include in controllers
 require 'controller_helper'
