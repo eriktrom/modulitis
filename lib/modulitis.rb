@@ -1,5 +1,4 @@
 # used to include in models
-require 'googleable'
 require 'imageable'
 require 'listable'
 # used to include in controllers
