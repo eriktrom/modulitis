@@ -3,7 +3,7 @@ module Audioable
   extend ActiveSupport::Concern
 
   included do
-    has_many :audios, :as => :audioable
+    has_many :audios, :as => :audioable, :dependent => :destroy
     accepts_nested_attributes_for :audios, :allow_destroy => true, :reject_if => proc { |obj| obj.blank? }
   end
 
